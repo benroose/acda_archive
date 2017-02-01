@@ -22,7 +22,8 @@ else
 	/bin/echo "${input_file} found. Attempting conversion to ${output_file}";
 	
 	# use sed to transpose commas into a single space globally from input file and redirect as output file
-	cat ${input_file} | sed 's/,*,/ /g' > ${output_file}
+	/bin/echo "AUTOMATED CONVERSION TO TEXT FILE" > ${output_file}
+	cat ${input_file} | sed 's/,*,/ /g' >> ${output_file}
 	
 	# clean up and remove csv input file
 	if [ -f ${output_file} ]; then
