@@ -3,9 +3,6 @@
 # Script to remove commas from input .csv file and rename output file as .txt
 # NOTE: Needs echo, cat and sed installed
 
-# Directory Variables
-#show_directory="${HOME}/.wine/drive_c/ETC/Eol/Eol311/Shows/"
-
 # File Variables
 ext_csv=csv
 ext_text=txt
