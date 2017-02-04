@@ -5,32 +5,32 @@ AUTOMATED CONVERSION TO TEXT FILE
  Email document to: ben.roose@wichita.edu Adjudication Dance Details (1 sheet per dance) 
  
  BIOGRAPHIC INFORMATION FOR PROGRAMME LISTING 
- College/University: Brookhaven College 
+ College/University: St. Gregory's University 
  
- Dance Title: Descant 
+ Dance Title: Regeneration 
  
- Length of Dance (mins and secs): 10 minutes 30 seconds 
+ Length of Dance (mins and secs): 7mins 10 secs 
  
- Choreographer: Anna Marie Ewert-Pittman 
+ Choreographer: Smaida Mara 
  
- Choreographer is: Faculty
+ Choreographer is: Student
  
- Music: Melanie Safka rearranged 
+ Music: """Microscopic"" by Mat Jarvis  and “The Gravel Road –The Village Soundtrack” by James Newton Howard." 
  
- Costume Designer: N/A 
+ Costume Designer: Smaida Mara 
  
- Lighting Designer: Susan White 
+ Lighting Designer: Smaida Mara 
  
- Performers: "Juliana Cortez  Bryan Diaz  Stephanie Fajardo  Madi Frampton  Kiana Haynes  Cecelia Higgins" 
+ Performers: "Natalie Isaacs  Ryoko Sano  and Smaida Mara" 
  
  
  Additional Credits (if required): 
  
  
  TECHNICAL CONTACT INFORMATION 
- Technical Contact Person: Anna Marie Ewert-Pittman 
+ Technical Contact Person: Dr. Jessica Van Oort 
  
- Phone: 2145334476 Email: aewert-pittman@dcccd.edu 
+ Phone: 405.878.5178 Email: jvanoort@stgregorys.edu 
  
  COLOUR CHANGE INFORMATION 
  "Physical colour gel changes for each dance will be possible in the Mid 'Chest'  and Low 'Shin' boom lighting fixtures only.
@@ -44,9 +44,9 @@ There will be LED colour mixing available from an overhead RGBW par wash and a c
  
  
  COLOUR SELECTIONS 
- Mid 'chest' SL: R358 SR: R358 
+ Mid 'chest' SL: SR: 
  
- Low 'shin' SL: L136 SR: L136 
+ Low 'shin' SL: SR: 
  
  SOFT GOOD STAGE BACKGROUND INFORMATION (select only one): 
  White Cyclorama
@@ -56,7 +56,7 @@ There will be LED colour mixing available from an overhead RGBW par wash and a c
  
  
  
- Brookhaven will provide the color for the mids and lows. 
+ Dancers will be using umbrellas as prop. There will be three umbrellas in total. 
  
  
  
