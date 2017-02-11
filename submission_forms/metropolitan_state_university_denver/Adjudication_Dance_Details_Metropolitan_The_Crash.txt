@@ -5,23 +5,23 @@ AUTOMATED CONVERSION TO TEXT FILE
  Email document to: ben.roose@wichita.edu Adjudication Dance Details (1 sheet per dance) 
  
  BIOGRAPHIC INFORMATION FOR PROGRAMME LISTING 
- College/University: 
+ College/University: Metropolitan State University of Denver 
  
  Dance Title: The Crash 
  
- Length of Dance (mins and secs): 
+ Length of Dance (mins and secs): 3:50 
  
- Choreographer: 
+ Choreographer: Kallyn Rand 
  
- Choreographer is: UNKNOWN
+ Choreographer is: Student
  
- Music: 
+ Music: This Place Was a Shelter by Olafur Arnalds 
  
- Costume Designer: 
+ Costume Designer: Kallyn Rand 
  
- Lighting Designer: 
+ Lighting Designer: Kallyn Rand 
  
- Performers: 
+ Performers: "Kallyn Rand  Olivia Sando  Madeline Kelley  Sadie Bell  Caitlee Meed" 
  
  
  Additional Credits (if required): 
@@ -49,7 +49,7 @@ There will be LED colour mixing available from an overhead RGBW par wash and a c
  Low 'shin' SL: L201 SR: L201 
  
  SOFT GOOD STAGE BACKGROUND INFORMATION (select only one): 
-UNKNOWNs
+ White Cyclorama 
  
  OTHER TECHNICAL INFORMATION 
  "Please describe below any scenery  stage props  musical instruments  or other non-lighting technical details that will be used in the dance. Please note that all scenery must be free-standing  and no equipment will be allowed which could damage the vinyl dance floor or other parts of the venue." 
