@@ -5,32 +5,32 @@ AUTOMATED CONVERSION TO TEXT FILE
  Email document to: ben.roose@wichita.edu Adjudication Dance Details (1 sheet per dance) 
  
  BIOGRAPHIC INFORMATION FOR PROGRAMME LISTING 
- College/University: St. Gregory's University 
+ College/University: University of Illinois at Urbana-Champaign 
  
- Dance Title: Regeneration 
+ Dance Title: Algorithm 
  
- Length of Dance (mins and secs): 7mins 10 secs 
+ Length of Dance (mins and secs): 8 minutes 
  
- Choreographer: Smaida Mara 
+ Choreographer: Charlie Maybee 
  
  Choreographer is: Student
  
- Music: """Microscopic"" by Mat Jarvis  and “The Gravel Road –The Village Soundtrack” by James Newton Howard." 
+ Music: U by Kendrick Lamar 
  
- Costume Designer: Smaida Mara 
+ Costume Designer: Charlie Maybee 
  
- Lighting Designer: Smaida Mara 
+ Lighting Designer: Robert Perry 
  
- Performers: "Natalie Isaacs  Ryoko Sano  and Smaida Mara" 
+ Performers: "Lauren Mendelson  Randi Townsend" 
  
  
  Additional Credits (if required): 
  
  
  TECHNICAL CONTACT INFORMATION 
- Technical Contact Person: Dr. Jessica Van Oort 
+ Technical Contact Person: Robert Perry 
  
- Phone: 405.878.5178 Email: jvanoort@stgregorys.edu 
+ Phone: (917) 701-1968 Email: robperry@illinois.edu 
  
  COLOUR CHANGE INFORMATION 
  "Physical colour gel changes for each dance will be possible in the Mid 'Chest'  and Low 'Shin' boom lighting fixtures only.
@@ -44,19 +44,19 @@ There will be LED colour mixing available from an overhead RGBW par wash and a c
  
  
  COLOUR SELECTIONS 
- Mid 'chest' SL: R52 (Light Lav) SR: R52 (Light Lav) 
+ Mid 'chest' SL: L201 SR: L201 
  
- Low 'shin' SL: R52 (Light Lav) SR: R52 (Light Lav) 
+ Low 'shin' SL: N/C SR: N/C 
  
  SOFT GOOD STAGE BACKGROUND INFORMATION (select only one): 
- White Cyclorama 
+ Black Velour Curtain
  
  OTHER TECHNICAL INFORMATION 
  "Please describe below any scenery  stage props  musical instruments  or other non-lighting technical details that will be used in the dance. Please note that all scenery must be free-standing  and no equipment will be allowed which could damage the vinyl dance floor or other parts of the venue." 
  
  
  
- Dancers will be using umbrellas as prop. There will be three umbrellas in total. 
+ Type other technical information here 
  
  
  
