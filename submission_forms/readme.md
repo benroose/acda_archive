@@ -9,7 +9,7 @@ If a visiting institution team member wishes to edit or submit changes to a file
 1. The file can be downloaded from the [acda_2017 repository](https://github.com/benroose/acda_2017) using the github web interface
   1. The required file can be locally edited, and then emailed to the technical director, Ben Roose ([ben.roose@gmail.com](mailto:ben.roose@gmail.com)).
   2. Ben will then upload the newly received file back to the repository.
-  3. Note that due to nature of this submission method, there will be limited version control and tranparency available.
+  3. Note that due to nature of this submission method, there will be limited version control and transparency available.
 
 2. A github pull request can be made allowing for full version control and transparency to the submitted changes:
   1. The [acda_2017 repository](https://github.com/benroose/acda_2017) can be locally cloned using git clone: [Cloning a repository](https://help.github.com/articles/cloning-a-repository/)  
