@@ -12,6 +12,7 @@ install_file="Expression_Express_Offline_v311.exe"
 # Directory Variables
 show_directory="${HOME}/.wine/drive_c/ETC/Eol/Eol311/Shows/"
 etc_exec="${HOME}/.wine/drive_c/ETC/Eol/Eol311/winx2.exe"
+persedit_exec="${HOME}/.wine/drive_c/ETC/Eol/Eol311/persedit.exe"
 etc_exec_directory="${HOME}/.wine/drive_c/ETC/Eol/Eol311/"
 etc_directory="${HOME}/.wine/drive_c/ETC"
 
@@ -52,11 +53,11 @@ etc_install() {
 	fi
 	
 	# unzip install file and install ETC offline editor (can we auto-complete install dialogs?)
-	mv "$(basename ${etcoffline_weblink})" "${zip_file}";
+	mv "$(basename ${etcoffline_weblink})" "${zip_file}"
 	unzip ${zip_file};
 	wine "${install_file}";
 
-	#wait for installation to occur
+	# wait for installation to occur
 	sleep 15;
 	
 	# copy new ETC settings file Winx2.ini
@@ -126,6 +127,12 @@ etc_run() {
 # FUNCTION: Exit ETC Offline Editor
 etc_exit() {
 	xdotool windowactivate $( xdotool search --name "Expression Off-Line" ) key "alt+o" Left Up space space;
+}
+
+# FUNCTION: Run ETC Personality Editor
+persedit_run() {
+	wine ${persedit_exec} &
+	sleep 2;
 }
 
 # FUNCTION: Open input show file from Show directory
@@ -220,7 +227,10 @@ case "${1}" in
 		etc_run
             fi
                 ;;
-        
+
+        persedit)
+ 		persedit_run
+                ;;        
         ascii)
                 # set variables and copy input file
             input_shw=${input_file}
@@ -282,6 +292,7 @@ show [file.asc] = auto convert USIIT ASCII [file] to SHOW format
 mv [file] = move file from show directory to pwd
 set-template [file] = set [file] as template in show directory
 clean-shows = interactively remove files in show directory
+persedit = run ETC Personality Editor
 -------------------------------------------------------------------
 install = downloads and installs ETC Expression Offline Editor (requires wine)
 purge = purges ETC Expression Offline Editor from system
