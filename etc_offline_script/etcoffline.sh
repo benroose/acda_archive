@@ -52,10 +52,13 @@ etc_install() {
 	fi
 	
 	# unzip install file and install ETC offline editor (can we auto-complete install dialogs?)
-	mv "$(basename ${etcoffline_weblink})" "${zip_file}"
-	unzip ${zip_file}
-	wine "${install_file}"
+	mv "$(basename ${etcoffline_weblink})" "${zip_file}";
+	unzip ${zip_file};
+	wine "${install_file}";
 
+	#wait for installation to occur
+	sleep 15;
+	
 	# copy new ETC settings file Winx2.ini
 	etc_reset
 	
