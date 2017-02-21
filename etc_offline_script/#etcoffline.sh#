@@ -230,7 +230,7 @@ case "${1}" in
                 ;;        
         ascii)
                 # set variables and copy input file
-            input_shw=$(basename -a ${input_file})
+            input_shw=$(basename ${input_file})
 	    output_file=${input_file%.$ext_shw}.$ext_ascii
             cp ${input_file} ${show_directory};
 	                    
