@@ -228,12 +228,15 @@ case "${1}" in
         persedit)
  		persedit_run
                 ;;        
-        ascii)
-                # set variables and copy input file
+        ascii)	    
+            # set variables and copy input file	    
             input_shw=$(basename -a ${input_file})
-	    output_file=${input_file%.$ext_shw}.$ext_ascii
+
+	    # substitute SHW in input file to shw
+	    input_file_converted="$(echo ${input_file} | sed 's/SHW/shw/')"
+
+	    output_file=${input_file_converted%.$ext_shw}.$ext_ascii
             cp ${input_file} ${show_directory};
-	                    
             # run ascii file conversion
             etc_run
             etc_open
