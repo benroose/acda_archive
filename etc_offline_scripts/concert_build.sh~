@@ -1,0 +1,49 @@
+#!/bin/bash
+
+# Script to build the concert USITT ASCII file from cue block files
+# NOTE: Needs echo, cat and sed installed
+
+# File and text variables
+in_prefix=raw_etc_
+out_prefix=cue_block_
+ext=asc
+
+input_file=${1}
+output_cue_block=${2}
+#output_file=${out_prefix}${input_file#*$in_prefix}
+
+max_cues="11"
+input_cue_block="900"
+let max_lx_cue=input_cue_block+1
+input_lx_cue="${input_cue_block}"
+output_lx_cue="${output_cue_block}"
+
+# check input file exists (exit if not)
+if [ ! -f ${input_file} ]; then
+    /bin/echo "${input_file} not found!";
+    exit 1;
+
+else
+    /bin/echo "${input_file} found. Attempting cue block conversion";
+
+    # pull in input file into variable
+    cue_data=$(cat ${input_file})
+	       
+    #  while loop for cues
+    while [ $input_lx_cue -lt $max_lx_cue ]; do
+
+	# use sed to replace input cue number with output cue number for each cue
+	cue_data=$(echo "${cue_data}" | sed "s/Cue ${input_lx_cue}/Cue ${output_lx_cue}/");
+	
+	let input_lx_cue="input_lx_cue"+1
+	let output_lx_cue="output_lx_cue"+1
+done 
+
+    # replace cue 900 text with partial filename, name of dance
+    # cue_data=$(echo "${cue_data}" | sed -e "s/${replace_text}/${dance_piece}/");
+
+    # redirect as output file
+    echo "${cue_data}"
+    # echo "${cue_data}" > ${output_file}
+
+fi
