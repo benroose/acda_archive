@@ -186,7 +186,6 @@ etc_macro() {
 # FUNCTION: Run ETC Offline Editor, load template show file, read USITT ASCII output file, run default macro, and save new ETC show file (then exit editor)
 
 # MAIN
-while 
 case "${1}" in
         clean-shows)
 	    rm -i ${show_directory}/*
@@ -281,7 +280,7 @@ case "${1}" in
             ;;
                 
           reset)
-	              # reset ETC Offline Editor settings file
+            # reset ETC Offline Editor settings file
             etc_reset
             ;;
          

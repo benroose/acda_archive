@@ -12,7 +12,7 @@ input_file=${1}
 output_cue_block=${2}
 #output_file=${out_prefix}${input_file#*$in_prefix}
 
-max_cues="11"
+max_cues="12"
 input_cue_block="900"
 let max_lx_cue=input_cue_block+max_cues
 input_lx_cue="${input_cue_block}"

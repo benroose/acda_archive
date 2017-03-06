@@ -1,0 +1,28 @@
+WCDT Fall Concert Show Order v1
+ 
+LX Cue	Uni	No	Dance Piece			Run Time		Stage Changes
+
+90		PRESET w/ H/L @ 80% (B Tab)
+95		H/L @ 50%
+
+100	WSUF	1: 	 The Good Wife (RK)		8min		Black Scrim/All sides L204
+195		H/L @ 35% (B Tab)
+
+200	WSUF	2: 	Lost Threads (CC)		33min		Black Scrim/SR sides in O/W/SL in L201
+245		H/L @ 35% (B Tab)
+
+300	WSUF	3: 	The Dinner Party (SV)	9min			Black Scim/All sides L204
+
+
+440		INTERMISSION w/ H/L @ 80% (I Tab)
+445		H/L @ 50%
+
+
+500	WSUF	5(1):	Bass Instinct		30min		Projector/Screen/Scrim/borders SR sides in R52/SL in o/W
+545		H/L @ 35% (I Tab)
+
+695		POSTSET w/ H/L @ 80% (B Tab)
+
+						TOTAL TIME:     70min	 w/o changes
+
+900		LIBRARY CUE BLOCK
