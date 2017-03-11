@@ -41,9 +41,18 @@ python -m SimpleHTTPServer ${http_port} > ${webserver_log} &
 
 start_vlcstreams() {
 /bin/echo "Attempting to start vlc with screen input for http in background [log located in ${script_path}]";
-#cvlc -v ${screen_input} --no-sout-standard-sap --sout-keep --ttl=20 --sout="#transcode{vcodec=VP80,vb=2048,width=1024,height=800,scale=0,channels=2,samplerate=44100}:std{access=http{mime=video/webm},mux=webm,dst=${dest_ip}:${net_port}${screen_stream}}" > ${screen_log} &
 
-cvlc ${screen_input} --no-sout-standard-sap --sout-keep --ttl=20 --sout="#transcode{vcodec=theo,vb=1024,width=1024,height=720,fps=10,channels=1,samplerate=22050,acodec=acc}:std{access=http{mime=video/ogg},mux=ogg,dst=${dest_ip}:${net_port}${screen_stream}}" > ${screen_log} &
+#cvlc -v ${screen_input} --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128}:standard{access=http,mux=ogg,dst=:${vlc_port}${screen_path}}'
+
+# webm transcode in vp80 THIS WORKS
+cvlc ${screen_input} --no-sout-standard-sap --sout-keep --ttl=20 --sout "#transcode{vcodec=VP80,vb=1024}:std{access=http{mime=video/webm},mux=webm,dst=${dest_ip}:${vlc_port}${screen_path}}"
+
+# webm transcode in vp80 resolution changes THIS WORKS
+#cvlc -v ${screen_input} --no-sout-standard-sap --sout-keep --ttl=20 --sout="#transcode{vcodec=VP80,vb=2048,width=1280,height=720,channels=1,samplerate=44100}:std{access=http{mime=video/webm},mux=webm,dst=${dest_ip}:${vlc_port}${screen_path}}" > ${screen_log} &
+
+# Nathan's original transcode options - theo and ogg
+#cvlc ${screen_input} --no-sout-standard-sap --sout-keep --ttl=20 --sout="#transcode{vcodec=theo,vb=1024,width=1024,height=720,fps=10,channels=1,samplerate=22050,acodec=acc}:std{access=http{mime=video/ogg},mux=ogg,dst=${dest_ip}:${vlc_port}${screen_path}}" > ${screen_log} &
+
 
 #/bin/echo "Attempting to start vlc with video input for http in background [log located in ${script_path}]";
 #cvlc ${video_input} --no-sout-standard-sap --sout-keep --ttl=20 --sout="#transcode{vcodec=theo,vb=2048,width=1280,height=720,fps=20}:std{access=http{mime=video/ogg},mux=ogg,dst=${dest_ip}:${net_port}${video_stream}}" > ${video_log} &
