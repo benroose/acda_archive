@@ -6,7 +6,8 @@
 # variables and inputs
 
 dest_ip=""
-vlc_port="18080"
+vlc_screen_port="18080"
+vlc_video_port="18081"
 http_port="8000"
 
 script_path="$HOME/acda_2017/streaming_scripts"
@@ -14,14 +15,13 @@ tmp_file="/tmp/webstream.tmp"
 
 screen_path="/screen.webm"
 video_path="/video.webm"
-#stream_path="/stream.wmv"
 
-screen_input="screen:// :screen-fps=10 :screen-caching=100"
-video_input="v4l2:///dev/video0:fps=20"
+screen_input="screen:// :screen-fps=20 :screen-caching=100"
+video_input="v4l2:// /dev/video0:fps=20"
 
 webserver_log="httpserver.log"
-screen_log="vlc_screen.log"
-video_log="vlc_video.log"
+vlc_screen_log="vlc_screen.log"
+vlc_video_log="vlc_video.log"
 
 process_group="$$"
 
@@ -35,27 +35,32 @@ process_group="$$"
 start_webserver() {
 /bin/echo "Attempting to start web server in background [log located in ${script_path}]";
 cd ${script_path};
-python -m SimpleHTTPServer ${http_port} > ${webserver_log} &
+python -m SimpleHTTPServer ${http_port} &> ${webserver_log} &
 
 }
 
 start_vlcstreams() {
 /bin/echo "Attempting to start vlc with screen input for http in background [log located in ${script_path}]";
 
-#cvlc -v ${screen_input} --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128}:standard{access=http,mux=ogg,dst=:${vlc_port}${screen_path}}'
-
 # webm transcode in vp80 THIS WORKS
-cvlc ${screen_input} --no-sout-standard-sap --sout-keep --ttl=20 --sout "#transcode{vcodec=VP80,vb=1024}:std{access=http{mime=video/webm},mux=webm,dst=${dest_ip}:${vlc_port}${screen_path}}"
+cvlc ${screen_input} --no-sout-standard-sap --sout-keep --ttl=20 --sout="#transcode{vcodec=VP80,vb=1024}:std{access=http{mime=video/webm},mux=webm,dst=${dest_ip}:${vlc_screen_port}${screen_path}}" > ${vlc_screen_log} &
 
 # webm transcode in vp80 resolution changes THIS WORKS
-#cvlc -v ${screen_input} --no-sout-standard-sap --sout-keep --ttl=20 --sout="#transcode{vcodec=VP80,vb=2048,width=1280,height=720,channels=1,samplerate=44100}:std{access=http{mime=video/webm},mux=webm,dst=${dest_ip}:${vlc_port}${screen_path}}" > ${screen_log} &
+#cvlc -v ${screen_input} --no-sout-standard-sap --sout-keep --ttl=20 --sout="#transcode{vcodec=VP80,vb=2048,width=1280,height=720,channels=1,samplerate=44100}:std{access=http{mime=video/webm},mux=webm,dst=${dest_ip}:${vlc_screen_port}${screen_path}}" > ${screen_log} &
+
+# From web - mp4
+#cvlc -v ${screen_input} --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128}:standard{access=http,mux=ogg,dst=:${vlc_port}${screen_path}}'
 
 # Nathan's original transcode options - theo and ogg
-#cvlc ${screen_input} --no-sout-standard-sap --sout-keep --ttl=20 --sout="#transcode{vcodec=theo,vb=1024,width=1024,height=720,fps=10,channels=1,samplerate=22050,acodec=acc}:std{access=http{mime=video/ogg},mux=ogg,dst=${dest_ip}:${vlc_port}${screen_path}}" > ${screen_log} &
+#cvlc ${screen_input} --no-sout-standard-sap --sout-keep --ttl=20 --sout="#transcode{vcodec=theo,vb=1024,width=1024,height=720,fps=10,channels=1,samplerate=22050,acodec=acc}:std{access=http{mime=video/ogg},mux=ogg,dst=${dest_ip}:${vlc_screen_port}${screen_path}}" > ${vlc_screen_log} &
 
+/bin/echo "Attempting to start vlc with video input for http in background [log located in ${script_path}]";
+cvlc ${video_input} --no-sout-standard-sap --sout-keep --ttl=20 --sout="#transcode{vcodec=VP80,vb=1024,}:std{access=http{mime=video/webm},mux=webm,dst=${dest_ip}:${vlc_video_port}${video_path}}" > ${vlc_video_log} &
 
-#/bin/echo "Attempting to start vlc with video input for http in background [log located in ${script_path}]";
-#cvlc ${video_input} --no-sout-standard-sap --sout-keep --ttl=20 --sout="#transcode{vcodec=theo,vb=2048,width=1280,height=720,fps=20}:std{access=http{mime=video/ogg},mux=ogg,dst=${dest_ip}:${net_port}${video_stream}}" > ${video_log} &
+#cvlc -v ${video_input} --no-sout-standard-sap --sout-keep --ttl=20 --sout="#transcode{vcodec=VP80,vb=2048,width=1280,height=720,channels=1,samplerate=44100}:std{access=http{mime=video/webm},mux=webm,dst=${dest_ip}:${vlc_video_port}${video_path}}"
+
+#cvlc -v ${video_input} --no-sout-standard-sap --sout-keep --ttl=20 --sout="#transcode{vcodec=theo,vb=1024,width=1024,height=720,fps=20,channels=1,samplerate=22050,acodec=acc}:std{access=http{mime=video/ogg},mux=ogg,dst=${dest_ip}:${vlc_video_port}${video_path}}" > ${vlc_video_log} &
+
 }
 
 # MAIN
