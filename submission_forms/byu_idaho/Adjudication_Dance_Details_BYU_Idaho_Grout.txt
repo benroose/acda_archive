@@ -15,7 +15,7 @@ AUTOMATED CONVERSION TO TEXT FILE
  
  Choreographer is: Faculty/Guest Artist X or Student
  
- Music: N/A 
+ Music: "Michael Wall  Westminster Cathedral Choir and David Hill (Composer  Michael Wall  Tomas Luis de Victoria)" 
  
  Costume Designer: N/A 
  
@@ -44,9 +44,9 @@ There will be LED colour mixing available from an overhead RGBW par wash and a c
  
  
  COLOUR SELECTIONS 
- Mid 'chest' SL: N/A SR: N/A 
+ Mid 'chest' SL: No Colour SR: No Colour 
  
- Low 'shin' SL: N/A SR: N/A 
+ Low 'shin' SL: No Colour SR: No Colour 
  
  SOFT GOOD STAGE BACKGROUND INFORMATION (select only one): 
  White Cyclorama X Black Velour Curtain 
