@@ -1,0 +1,263 @@
+ College/University: Brookhaven College 
+ Dance Title: Descant 
+ Mid 'chest' SL: R358 SR: R358 
+ Low 'shin' SL: L136 SR: L136 
+ White Cyclorama
+ Brookhaven will provide the color for the mids and lows. 
+
+ College/University: BYU-Idaho 
+ Dance Title: Grout 
+ Mid 'chest' SL: No Colour SR: No Colour 
+ Low 'shin' SL: No Colour SR: No Colour 
+ White Cyclorama  
+ N/A 
+
+ College/University: BYU-Idaho 
+ Dance Title: Wild Heart 
+ Mid 'chest' SL: No Colour SR: No Colour 
+ Low 'shin' SL: No Colour SR: No Colour 
+ White Cyclorama
+ N/A 
+
+ College/University: University of Central Oklahoma 
+ Dance Title: 1346 
+ Mid 'chest' SL: L204 SR: R52 
+ Low 'shin' SL: L204 SR: R52 
+Black Velour Curtain
+ Type other technical information here 
+
+ College/University: University of Central Oklahoma 
+ Dance Title: Saltwaters 
+ Mid 'chest' SL: L204 SR: L204 
+ Low 'shin' SL: L204 SR: L204 
+ White Cyclorama 
+ Two table-like platforms to be set on stage before the piece. 
+
+ College/University: Friends University 
+ Dance Title: Weeping Women  
+ Mid 'chest' SL: No Color SR: No Color 
+ Low 'shin' SL: Rosco 68 SR: Rosco 68 
+ White Cyclorama
+ Type other technical information here 
+
+ College/University: Illinois State University 
+ Dance Title: Potentially Kinetic 
+ Mid 'chest' SL: R370 SR: R92 
+ Low 'shin' SL: R344 SR: R332 
+ White Cyclorama
+
+ College/University: Illinois State University 
+ Dance Title: """Resettle""" 
+ Mid 'chest' SL: R370 SR: R69 
+ Low 'shin' SL: R316 SR: R321 
+ Black Velour Curtain 
+
+ College/University: University of Illinois at Urbana-Champaign 
+ Dance Title: Algorithm 
+ Mid 'chest' SL: L201 SR: L201 
+ Low 'shin' SL: N/C SR: N/C 
+ Black Velour Curtain
+ Type other technical information here 
+
+ College/University: University of Illinois at Urbana-Champaign / Dance at Illinois 
+ Dance Title: heavy planet 
+ Mid 'chest' SL: Rosco 98 SR: Rosco 98 
+ Low 'shin' SL: Rosco 99 SR: Rosco 99 
+ Black Velour Curtain 
+
+ College/University: The University of Iowa 
+ Dance Title: I Shall Wear My Trousers Rolled 
+ Mid 'chest' SL: No Color SR: No Color 
+ Low 'shin' SL: No Color SR: No Color 
+Black Velour Curtain
+ Type other technical information here 
+
+ College/University: University of Iowa 
+ Dance Title: Nimbus 
+ Mid 'chest' SL: L201 SR: L204 
+ Low 'shin' SL: L201 SR: L204 
+ White Cyclorama
+ House lights come up for a very brief portion of the dance. 
+
+ College/University: The Universtiy of Kansas 
+ Dance Title: UnTAPped Potential  
+ Mid 'chest' SL: L204 SR: L204 
+ Low 'shin' SL: L204 SR: L204 
+ Black Velour Curtain 
+ "I do not have anything major  I just have the requst to cut straight to black at the conclusion of the dance. Which can be worked out upon arrival. Thank you!" 
+
+ College/University: Lindenwood University 
+ Dance Title: "41  87" 
+ Mid 'chest' SL: SR: 
+ Low 'shin' SL: L201 SR: L201 
+ Black Velour Curtain 
+ Type other technical information here 
+
+ College/University: Lindenwood University 
+ Dance Title: When togetherness won't combine 
+ Mid 'chest' SL: L201 SR: L201 
+ Low 'shin' SL: L201 SR: L201 
+ Black Velour Curtain 
+ Type other technical information here 
+
+ College/University: Loyola University Chicago 
+ Dance Title: My Life Closed Twice 
+ Mid 'chest' SL: R08 SR: R08 
+ Low 'shin' SL: R08 SR: R08 
+ Black Velour Curtain
+ We will provide our own lighting gels. 
+
+ College/University: Loyola University Chicago 
+ Dance Title: No Quarter 
+ Mid 'chest' SL: R21 SR: R21 
+ Low 'shin' SL: L152 SR: L152 
+ Black Velour Curtain 
+ We will provide our own lighting gels. 
+
+ College/University: Metropolitan State University of Denver 
+ Dance Title: A prurience for  
+ Mid 'chest' SL: R52 SR: R52 
+ Low 'shin' SL: L204 SR: L204 
+ White Cyclorama
+ "Book  paper will be ripped up on stage" 
+
+ College/University: Metropolitan State University of Denver 
+ Dance Title: The Crash 
+ Mid 'chest' SL: R52 SR: R52 
+ Low 'shin' SL: L201 SR: L201 
+ White Cyclorama 
+ Type other technical information here 
+
+ College/University: Missouri State University 
+ Dance Title: An Encounter 
+ Mid 'chest' SL: SR: 
+ Low 'shin' SL: SR: 
+ White Cyclorama 
+ Type other technical information here 
+
+ College/University: Missouri State University 
+ Dance Title: The Last Day in December 
+ Mid 'chest' SL: SR: 
+ Low 'shin' SL: L201 SR: L201 
+ Black Velour Curtain 
+ Type other technical information here 
+
+ College/University: Missouri Valley College 
+ Dance Title: Rejsen 
+ Mid 'chest' SL: G135 SR: NA 
+ Low 'shin' SL: R365 SR: G840 
+ White Cyclorama
+ Type other technical information here 
+
+ College/University: Missouri Valley College 
+ Dance Title: Y(our) Silence 
+ Mid 'chest' SL: G850 SR: G840 
+ Low 'shin' SL: G850 SR: G840 
+ White Cyclorama
+ Dancers have lanterns they dance with.  
+
+ College/University: University of Nebraska - Kearney 
+ Dance Title: after: 
+ Mid 'chest' SL: L204 SR: L204 
+ Low 'shin' SL: L201 SR: L201 
+ White Cyclorama
+ None. 
+
+ College/University: University of Nebraska - Kearney 
+ Dance Title: Itchy 
+ Mid 'chest' SL: R52 SR: L204 
+ Low 'shin' SL: R52 SR: L201 
+ White Cyclorama
+ None 
+
+ College/University: University of Nebraska Lincoln 
+ Dance Title: But when are we going to paint the apartment? 
+ Mid 'chest' SL: no color no color 
+ Low 'shin' SL: No Color SR: No color 
+ Black Velour Curtain 
+ "This piece has a practical lamp that is placed down left - if there is electrical for it - great  if not - that's okay too - if it can go int oa dimmer  please help the choreographer add it to her cues." 
+
+ College/University: University of Nebraska Lincoln  
+ Dance Title: on how to be 
+ Mid 'chest' SL: no color SR: no color 
+ Low 'shin' SL: no color SR: no color 
+ Black Velour Curtain
+ Type other technical information here 
+
+ College/University: Rockford University 
+ Dance Title: The Boy from Under and the Broken Girl of the Sky 
+ Mid 'chest' SL: L204 SR: L204 
+ Low 'shin' SL: NC SR: NC 
+ Black Velour Curtain
+ Type other technical information here 
+
+ College/University: Rockford University 
+ Dance Title: Hunt 
+ Mid 'chest' SL: L201 SR: L201 
+ Low 'shin' SL: NC SR: NC 
+ Black Velour Curtain
+ Type other technical information here 
+
+ College/University: Southern Illinois University Eduwardsville 
+ Dance Title: Occurrence 
+ Mid 'chest' SL: NO COLOR SR: NO COLOR 
+ Low 'shin' SL: R69 SR: R69 
+ Black Velour Curtain
+ Type other technical information here 
+
+ College/University: Southern Illinois University Eduwardsville 
+ Dance Title: The Promised Land 
+ Mid 'chest' SL: R17 SR: R17 
+ Low 'shin' SL: R70 SR: R71 
+ White Cyclorama
+ Type other technical information here 
+
+ College/University: St. Gregory's University 
+ Dance Title: Arise 
+ Mid 'chest' SL: no colour SR: no colour 
+ Low 'shin' SL: no colour SR: no colour 
+ White Cyclorama 
+ Type other technical information here 
+
+ College/University: St. Gregory's University 
+ Dance Title: Regeneration 
+ Mid 'chest' SL: R52 (Light Lav) SR: R52 (Light Lav) 
+ Low 'shin' SL: R52 (Light Lav) SR: R52 (Light Lav) 
+ White Cyclorama 
+ Dancers will be using umbrellas as prop. There will be three umbrellas in total. 
+
+ College/University: University of Tulsa 
+ Dance Title: Under the Skin 
+ Mid 'chest' SL: R52 SR: L204 
+ Low 'shin' SL: R52 SR: L204 
+ White Cyclorama
+ None. 
+
+ College/University: Webster University 
+ Dance Title: I was in Silence 
+ Mid 'chest' SL: Cool SR: No color 
+ Low 'shin' SL: SR: 
+ Black Velour Curtain
+ Type other technical information here 
+
+ College/University: Webster University 
+ Dance Title: Unnoticed Before Awake Now 
+ Mid 'chest' SL: Cool SR: No color 
+ Low 'shin' SL: SR: 
+ White Cyclorama 
+ Type other technical information here 
+
+ College/University:   Wichita State University 
+ Dance Title:   Dinner Party 
+ Mid 'chest' SL:   L204 SR:   L204 
+ Low 'shin' SL:   L204 SR:   L204 
+ Black Velour Curtain 
+ Table and chairs moved by performers 
+
+ College/University: Wichita State University 
+ Dance Title: Is
+ Mid 'chest' SL: No Colour SR: No Colour 
+ Low 'shin' SL: No Colour SR: No Colour 
+ Black Velour Curtain 
+ Dancers will be using black markers that they will bring on and take off themselves.  
+
