@@ -44,9 +44,9 @@ There will be LED colour mixing available from an overhead RGBW par wash and a c
  
  
  COLOUR SELECTIONS 
- Mid 'chest' SL: SR: 
+ Mid 'chest' SL: R05 SR: R05 
  
- Low 'shin' SL: SR: 
+ Low 'shin' SL: R05 SR: R05 
  
  SOFT GOOD STAGE BACKGROUND INFORMATION (select only one): 
  White Cyclorama 

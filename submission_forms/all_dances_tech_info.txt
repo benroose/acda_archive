@@ -130,8 +130,8 @@ Black Velour Curtain
 
  College/University: Missouri State University 
  Dance Title: An Encounter 
- Mid 'chest' SL: SR: 
- Low 'shin' SL: SR: 
+ Mid 'chest' SL: R05 SR: R05 
+ Low 'shin' SL: R05 SR: R05 
  White Cyclorama 
  Type other technical information here 
 
