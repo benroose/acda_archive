@@ -18,10 +18,12 @@ let max_lx_cue=input_cue_block+max_cues
 input_lx_cue="${input_cue_block}"
 output_lx_cue="${output_cue_block}"
 
+int_curtain_warm="16"
+
 interlink_cue_data="   Text INTERLINK
    Up 3
    Down 3
-   Chan 5@Hcc 6@Hcc 15@Hff 51@H33 52@H33 53@H33 54@H33 55@H33 56@H33 57@H33
+   Chan 5@Hcc 6@Hcc ${int_curtain_warm}@Hff 51@H33 52@H33 53@H33 54@H33 55@H33 56@H33 57@H33
    Chan 58@H33 59@H33 60@H33 61@H33 62@H33 63@H33 64@H33 65@H33 66@H33
    Chan 67@H33 68@H33 69@H33 70@H33 101@Hff 105@Hff 111@Hff 115@Hff 121@Hff
    Chan 125@Hff 131@Hff 135@Hff 141@Hff 145@Hff 151@Hff 155@Hff 161@Hff
@@ -53,7 +55,7 @@ done
     # echo "${cue_data}" > ${output_file}
 
     # output interlink cue with correct cue number at end of block
-    let output_lx_cue="output_lx_cue"+34
+    let output_lx_cue="output_lx_cue"+33
     echo "Cue ${output_lx_cue}"
     echo "${interlink_cue_data}"
 fi

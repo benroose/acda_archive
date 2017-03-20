@@ -158,9 +158,12 @@ etc_readascii() {
 	sleep 1;
 	xdotool search --name "Read Ascii File" type ${input_asc}; xdotool key Return Return;
 	sleep 1;
-	xdotool mousemove 650 400 click 3 key a; # right click on ASCII File Status, select all
+	#xdotool mousemove 650 400 click 3 key a; # right click on ASCII File Status, select all
+	xdotool mousemove 700 850 click 3 key a; # right click on ASCII File Status, select all (for extended i3 screen)
 	xdotool click 3 key c; # right click and copy status text to clipboard
-	xdotool mousemove 650 450 click 1; # left click on ASCII File Status OK button
+	#xdotool mousemove 650 450 click 1; # left click on ASCII File Status OK button
+	xdotool mousemove 700 900 click 1; # left click on ASCII File Status OK button (for extended i3 screen)
+	xdotool mousemove 700 100; # move back to etc window
 	status="$(xsel --clipboard)"; # paste clipboard to variable status
 	sleep 2;
 }
@@ -177,7 +180,7 @@ etc_writeascii() {
 #FUNCTION: Run macro in ETC Editor
 etc_macro() {
 	xdotool windowactivate $( xdotool search --name "Expression Off-Line" ) key m $macro Return;
-	sleep 2;
+	sleep 5;
 }
 
 
@@ -187,7 +190,7 @@ etc_macro() {
 
 # MAIN
 case "${1}" in
-        clean-shows)
+        clean)
 	    rm -i ${show_directory}/*
             ;;
 	
@@ -291,7 +294,7 @@ ascii [file.shw] = auto convert SHOW [file] to USITT ASCII format
 show [file.asc] = auto convert USIIT ASCII [file] to SHOW format
 mv [file] = move file from show directory to pwd
 set-template [file] = set [file] as template in show directory
-clean-shows = interactively remove files in show directory
+clean = interactively remove files in show directory
 persedit = run ETC Personality Editor
 -------------------------------------------------------------------
 install = downloads and installs ETC Expression Offline Editor (requires wine)
