@@ -1,0 +1,9 @@
+Wilner Theatre
+Dimmer numbers for Houselights
+
+Sconces: 136
+Downlights: 137-139
+Uplights: 141-144
+
+Dimmer numbers for Worklights
+188-191
