@@ -8,7 +8,7 @@
 dest_ip=""
 vlc_screen_port="18080"
 vlc_video_port="18081"
-#http_port="8000"
+http_port="8000"
 #http_port="80"
 
 script_path="$HOME/acda_2017/streaming_scripts"
@@ -46,7 +46,7 @@ start_vlcstreams() {
 /bin/echo "Attempting to start vlc with screen input for http in background [log located in ${script_path}]";
 
 # webm transcode in vp80 THIS WORKS
-cvlc ${screen_input} --no-sout-standard-sap --sout-keep --ttl=20 --sout="#transcode{vcodec=VP80,vb=800}:std{access=http{mime=video/webm},mux=webm,dst=${dest_ip}:${vlc_screen_port}${screen_path}}" > ${vlc_screen_log} &
+#cvlc ${screen_input} --no-sout-standard-sap --sout-keep --ttl=20 --sout="#transcode{vcodec=VP80,vb=800}:std{access=http{mime=video/webm},mux=webm,dst=${dest_ip}:${vlc_screen_port}${screen_path}}" > ${vlc_screen_log} &
 
 #cvlc ${screen_input} --no-sout-standard-sap --sout-keep --ttl=20 --sout="#transcode{vcodec=VP80,vb=1024}:std{access=http{mime=video/webm},mux=webm,dst=${dest_ip}:${vlc_screen_port}${screen_path}}" > ${vlc_screen_log} &
 
