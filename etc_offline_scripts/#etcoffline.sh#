@@ -159,11 +159,11 @@ etc_readascii() {
 	xdotool search --name "Read Ascii File" type ${input_asc}; xdotool key Return Return;
 	sleep 1;
 	#xdotool mousemove 650 400 click 3 key a; # right click on ASCII File Status, select all
-	xdotool mousemove 700 1650 click 3 key a; # right click on ASCII File Status, select all (for extended i3 screen)
+	xdotool mousemove 700 850 click 3 key a; # right click on ASCII File Status, select all (for extended i3 screen)
 	xdotool click 3 key c; # right click and copy status text to clipboard
-	#xdotool mousemove 650 450 click 1; # left click on ASCII File Status OK button
-	xdotool mousemove 700 1700 click 1; # left click on ASCII File Status OK button (for extended i3 screen)
-	xdotool mousemove 700 1500; # move back to etc window
+	#xdotool mousemove 650 450 click 1; # left click on ASCII File Status OK button 
+click 1; # left click on ASCII File Status OK button (for extended i3 screen)
+	xdotool mousemove 700 100; # move back to etc window
 	status="$(xsel --clipboard)"; # paste clipboard to variable status
 	sleep 2;
 }
