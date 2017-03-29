@@ -1,0 +1,6 @@
+156.26.191.150 - - [28/Mar/2017 15:58:52] "GET / HTTP/1.1" 200 -
+156.26.191.150 - - [28/Mar/2017 15:58:52] code 404, message File not found
+156.26.191.150 - - [28/Mar/2017 15:58:52] "GET /favicon.ico HTTP/1.1" 404 -
+156.26.191.150 - - [28/Mar/2017 15:58:53] code 404, message File not found
+156.26.191.150 - - [28/Mar/2017 15:58:53] "GET /favicon.ico HTTP/1.1" 404 -
+156.26.191.150 - - [28/Mar/2017 15:58:55] "GET /video.html HTTP/1.1" 200 -
