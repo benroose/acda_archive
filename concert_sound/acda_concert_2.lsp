@@ -5,12 +5,12 @@
     "cues": [
         {
             "_media_": {
-                "duration": 517520,
+                "duration": 67786,
                 "elements": {
                     "UriInput": {
-                        "_mtime": 1490877702.3350158,
-                        "duration": 517520,
-                        "uri": "file:///home/roose/Music/ACDA_CONCERT_2/01 - Friends - Weeping Women.wav"
+                        "_mtime": 1490903080.623897,
+                        "duration": 67786,
+                        "uri": "file:///home/roose/Music/ACDA_CONCERT_3/01-1 - UIUC - heavy planet 1.wav"
                     }
                 },
                 "pipe": [
@@ -23,19 +23,19 @@
                 ]
             },
             "_type_": "MediaCue",
-            "duration": 517520,
-            "id": "2fbd0a9e-ce7d-489f-bef8-93d90675c352",
+            "duration": 67786,
+            "id": "6569c541-1994-4106-b420-5cc9874d7d75",
             "index": 0,
-            "name": "01 - Friends - Weeping Women"
+            "name": "01-1 - UIUC - heavy planet 1"
         },
         {
             "_media_": {
-                "duration": 306000,
+                "duration": 73373,
                 "elements": {
                     "UriInput": {
-                        "_mtime": 1490879018.256049,
-                        "duration": 306000,
-                        "uri": "file:///home/roose/Music/ACDA_CONCERT_2/02 - Iowa - Nimbus.wav"
+                        "_mtime": 1490903088.688083,
+                        "duration": 73373,
+                        "uri": "file:///home/roose/Music/ACDA_CONCERT_3/01-2 - UIUC - heavy planet 2.wav"
                     }
                 },
                 "pipe": [
@@ -48,19 +48,19 @@
                 ]
             },
             "_type_": "MediaCue",
-            "duration": 306000,
-            "id": "97dd9476-f10e-485e-a5cd-9bb6f01b21cd",
+            "duration": 73373,
+            "id": "ba66193c-cbd5-4809-a5a5-301d52113f00",
             "index": 1,
-            "name": "02 - Iowa - Nimbus"
+            "name": "01-2 - UIUC - heavy planet 2"
         },
         {
             "_media_": {
-                "duration": 406546,
+                "duration": 356280,
                 "elements": {
                     "UriInput": {
-                        "_mtime": 1490882034.6458604,
-                        "duration": 406546,
-                        "uri": "file:///home/roose/Music/ACDA_CONCERT_2/03 - StGregory - Regeneration.wav"
+                        "_mtime": 1490906010.542117,
+                        "duration": 356280,
+                        "uri": "file:///home/roose/Music/ACDA_CONCERT_3/02 - MSU - An Encounter.wav"
                     }
                 },
                 "pipe": [
@@ -73,19 +73,19 @@
                 ]
             },
             "_type_": "MediaCue",
-            "duration": 406546,
-            "id": "437d4c00-8298-42fb-8855-b5eda67e0a71",
+            "duration": 356280,
+            "id": "0fff8c22-2653-4811-b964-b4bc2a7039fe",
             "index": 2,
-            "name": "03 - StGregory - Regeneration"
+            "name": "02 - MSU - An Encounter"
         },
         {
             "_media_": {
-                "duration": 308360,
+                "duration": 248073,
                 "elements": {
                     "UriInput": {
-                        "_mtime": 1490885952.2457006,
-                        "duration": 308360,
-                        "uri": "file:///home/roose/Music/ACDA_CONCERT_2/04-1 - Webster - Unnoticed Before 1.wav"
+                        "_mtime": 1490908818.5593984,
+                        "duration": 248073,
+                        "uri": "file:///home/roose/Music/ACDA_CONCERT_3/03 - ISU - Resettle 1.wav"
                     }
                 },
                 "pipe": [
@@ -98,19 +98,19 @@
                 ]
             },
             "_type_": "MediaCue",
-            "duration": 308360,
-            "id": "457eb235-40ab-4975-9b81-e4374b1f3e2c",
+            "duration": 248073,
+            "id": "01c5a976-0812-4eff-ba1a-6febdac09854",
             "index": 3,
-            "name": "04-1 - Webster - Unnoticed Before 1"
+            "name": "03 - ISU - Resettle 1"
         },
         {
             "_media_": {
-                "duration": 313240,
+                "duration": 364026,
                 "elements": {
                     "UriInput": {
-                        "_mtime": 1490885982.042406,
-                        "duration": 313240,
-                        "uri": "file:///home/roose/Music/ACDA_CONCERT_2/04-2 - Webster - Unnoticed Before 2.wav"
+                        "_mtime": 1490908512.5229561,
+                        "duration": 364026,
+                        "uri": "file:///home/roose/Music/ACDA_CONCERT_3/03 - ISU - Resettle 2.wav"
                     }
                 },
                 "pipe": [
@@ -123,19 +123,19 @@
                 ]
             },
             "_type_": "MediaCue",
-            "duration": 313240,
-            "id": "25adff2e-ab00-45ba-8ee0-dfd82bea5b8e",
+            "duration": 364026,
+            "id": "f9adca54-43bf-48e2-944b-1480851ac5ef",
             "index": 4,
-            "name": "04-2 - Webster - Unnoticed Before 2"
+            "name": "03 - ISU - Resettle 2"
         },
         {
             "_media_": {
-                "duration": 629600,
+                "duration": 497720,
                 "elements": {
                     "UriInput": {
-                        "_mtime": 1490884559.2251277,
-                        "duration": 629600,
-                        "uri": "file:///home/roose/Music/ACDA_CONCERT_2/05 - Brookhaven - Descant.wav"
+                        "_mtime": 1490911272.2970672,
+                        "duration": 497720,
+                        "uri": "file:///home/roose/Music/ACDA_CONCERT_3/04 - LUC - My Life Closed.wav"
                     }
                 },
                 "pipe": [
@@ -148,19 +148,19 @@
                 ]
             },
             "_type_": "MediaCue",
-            "duration": 629600,
-            "id": "e8aa2b3d-6142-423f-b350-9738c1c0af80",
+            "duration": 497720,
+            "id": "3111acaa-69e1-4c7f-ad78-3c4991fa0937",
             "index": 5,
-            "name": "05 - Brookhaven - Descant"
+            "name": "04 - LUC - My Life Closed"
         },
         {
             "_media_": {
-                "duration": 295000,
+                "duration": 420444,
                 "elements": {
                     "UriInput": {
-                        "_mtime": 1490883359.7414374,
-                        "duration": 295000,
-                        "uri": "file:///home/roose/Music/ACDA_CONCERT_2/06 - StGregory - Arise.wav"
+                        "_mtime": 1490907264.5338216,
+                        "duration": 420444,
+                        "uri": "file:///home/roose/Music/ACDA_CONCERT_3/05 MSU - Last Day in Dec.wav"
                     }
                 },
                 "pipe": [
@@ -173,19 +173,19 @@
                 ]
             },
             "_type_": "MediaCue",
-            "duration": 295000,
-            "id": "3989e3cc-9949-452b-bdf3-85561b82aa9e",
+            "duration": 420444,
+            "id": "fcec26cf-1a93-44d8-8bc1-2b47d024a779",
             "index": 6,
-            "name": "06 - StGregory - Arise"
+            "name": "05 MSU - Last Day in Dec"
         },
         {
             "_media_": {
-                "duration": 388520,
+                "duration": 329960,
                 "elements": {
                     "UriInput": {
-                        "_mtime": 1490886218.2239788,
-                        "duration": 388520,
-                        "uri": "file:///home/roose/Music/ACDA_CONCERT_2/07 - Webster - I was in Silence.wav"
+                        "_mtime": 1490911408.3396947,
+                        "duration": 329960,
+                        "uri": "file:///home/roose/Music/ACDA_CONCERT_3/06 - LUC - No Quarter.wav"
                     }
                 },
                 "pipe": [
@@ -198,19 +198,19 @@
                 ]
             },
             "_type_": "MediaCue",
-            "duration": 388520,
-            "id": "c0fec113-c70b-4780-8103-529af89015cb",
+            "duration": 329960,
+            "id": "df4b31f5-061a-4e6b-a1ce-027d9d2f9d33",
             "index": 7,
-            "name": "07 - Webster - I was in Silence"
+            "name": "06 - LUC - No Quarter"
         },
         {
             "_media_": {
-                "duration": 718760,
+                "duration": 145640,
                 "elements": {
                     "UriInput": {
-                        "_mtime": 1490880219.9612064,
-                        "duration": 718760,
-                        "uri": "file:///home/roose/Music/ACDA_CONCERT_2/08 - Iowa - I Shall Wear My Trowsers.wav"
+                        "_mtime": 1490904165.7805517,
+                        "duration": 145640,
+                        "uri": "file:///home/roose/Music/ACDA_CONCERT_3/07 - UIUC - Algorithm.wav"
                     }
                 },
                 "pipe": [
@@ -223,10 +223,35 @@
                 ]
             },
             "_type_": "MediaCue",
-            "duration": 718760,
-            "id": "3341005a-8a59-4dff-971d-54cdcef640ca",
+            "duration": 145640,
+            "id": "0bded07f-0884-40c8-98cc-520e7e1c350c",
             "index": 8,
-            "name": "08 - Iowa - I Shall Wear My Trowsers"
+            "name": "07 - UIUC - Algorithm"
+        },
+        {
+            "_media_": {
+                "duration": 512480,
+                "elements": {
+                    "UriInput": {
+                        "_mtime": 1490909732.7075775,
+                        "duration": 512480,
+                        "uri": "file:///home/roose/Music/ACDA_CONCERT_3/08 - ISU - Potentially Kinetic.wav"
+                    }
+                },
+                "pipe": [
+                    "UriInput",
+                    "Fade",
+                    "Volume",
+                    "Equalizer10",
+                    "DbMeter",
+                    "AutoSink"
+                ]
+            },
+            "_type_": "MediaCue",
+            "duration": 512480,
+            "id": "698a6f8a-9623-4f32-9948-9caaafbe077e",
+            "index": 9,
+            "name": "08 - ISU - Potentially Kinetic"
         }
     ],
     "plugins": {}
