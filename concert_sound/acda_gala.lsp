@@ -204,31 +204,6 @@
         },
         {
             "_media_": {
-                "duration": 388520,
-                "elements": {
-                    "UriInput": {
-                        "_mtime": 1490886218.2239788,
-                        "duration": 388520,
-                        "uri": "file:///home/roose/Music/ACDA_CONCERT_2/07 - Webster - I was in Silence.wav"
-                    }
-                },
-                "pipe": [
-                    "UriInput",
-                    "Fade",
-                    "Volume",
-                    "Equalizer10",
-                    "DbMeter",
-                    "AutoSink"
-                ]
-            },
-            "_type_": "MediaCue",
-            "duration": 388520,
-            "id": "1a4e5e7c-a871-4c3a-a249-8adf5118fc68",
-            "index": 7,
-            "name": "07 - Webster - I was in Silence"
-        },
-        {
-            "_media_": {
                 "duration": 522933,
                 "elements": {
                     "UriInput": {
@@ -252,8 +227,37 @@
             },
             "duration": 522933,
             "id": "6069ccca-5048-46dc-b8ae-498d6152ed0d",
+            "index": 7,
+            "name": "07 - UCO - Saltwaters",
+            "stylesheet": "font-size:9pt;"
+        },
+        {
+            "_media_": {
+                "duration": 388520,
+                "elements": {
+                    "UriInput": {
+                        "_mtime": 1490886218.2239788,
+                        "duration": 388520,
+                        "uri": "file:///home/roose/Music/ACDA_CONCERT_2/07 - Webster - I was in Silence.wav"
+                    }
+                },
+                "pipe": [
+                    "UriInput",
+                    "Fade",
+                    "Volume",
+                    "Equalizer10",
+                    "DbMeter",
+                    "AutoSink"
+                ]
+            },
+            "_type_": "MediaCue",
+            "controller": {
+                "keyboard": []
+            },
+            "duration": 388520,
+            "id": "1a4e5e7c-a871-4c3a-a249-8adf5118fc68",
             "index": 8,
-            "name": "08 - UCO - Saltwaters",
+            "name": "08 - Webster - I was in Silence",
             "stylesheet": "font-size:9pt;"
         },
         {
