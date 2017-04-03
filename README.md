@@ -1,7 +1,7 @@
-# acda_2017
-ACDA 2017 Central Region Conference Technical Paperwork and Files Repository
+# acda_archive
+Archive of past ACDA technical paperwork and data
 
-For additional technical information see the [ACDA 2017 Central Region Tech Info](https://www.regonline.com/builder/site/tab2.aspx?EventID=1862437)
+## ANY DATA IN THIS ARCHIVE IS FREE TO REUSE, UPDATE, OR REMIX FOR FUTURE PROJECTS. HOWEVER, PLEASE ALWAYS ENSURE TO REDISTRIBUTE ANY WORK BASED ON THIS DATA UNDER A CC BY-SA LICENSE AND ATTRIBUTE WICHITA STATE UNIVERSITY AND/OR BEN ROOSE.
 
-Except where otherwise noted, this work is licensed under Creative Commons Attribution-ShareAlike 4.0.
+Except where otherwise noted, this work is licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA).
 [https://creativecommons.org/licenses/by-sa/4.0/]
