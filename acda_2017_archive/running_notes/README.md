@@ -2,6 +2,3 @@
 
 ## Video feed from tech table on Google Hangouts
 [Hangouts Session](https://hangouts.google.com/call/ysvdfauofjfu3gmhbmnvclxdqme)
-
-#Concert 1
-
