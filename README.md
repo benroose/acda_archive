@@ -6,5 +6,7 @@ Archive of past ACDA technical paperwork and data created by Ben Roose for Wichi
 
 ## FURTHER INFORMATION ON CC BY-SA LICENSING CAN BE FOUND AT THE [CREATIVE COMMONS WEBSITE](https://creativecommons.org/licenses/by-sa/4.0/)
 
+## For an introduction to using Git and GitHub please see their [tutorial guide](https://guides.github.com/activities/hello-world/).
+
 Except where otherwise noted, all work in this repository is licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA).
 [https://creativecommons.org/licenses/by-sa/4.0/]
