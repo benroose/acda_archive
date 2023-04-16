@@ -1,0 +1,34 @@
+WCDT Concert 2023 Show Order v1
+ 
+LX Cue	Uni	No	Dance Piece			Run Time		Stage Changes
+
+90		PRESET w/ H/L @ 80% (B Tab)
+95		H/L @ 50%
+	
+100	WSUF	1:	Dear Me (CC)			min		In front of Main Tabs/All sides N/A 
+145		H/L @ 35% (B Tab)
+
+150	WSUF	2: 	Prelude (DC)			min		Cyc/
+195		H/L @ 35% (B Tab) 
+
+200	WSUF	3: 	seenUnseen (SV)			min		Black Scrim/SR in O/W/SL in L204
+245		H/L @ 35% (B Tab)
+
+495		INTERMISSION w/ H/L @ 80% (I Tab)
+496		H/L @ 50%
+
+
+500	WSUF	4(1):	Logged In and Buffering (CC)	min		Black Scrim/All booms in O/W
+545		H/L @ 35% (I Tab)
+
+550	GUEST	5(2): 	Film (C?)			min		Black Scrim/All booms in L201
+595		H/L @ 35% (B Tab)
+
+600	WSUF	6(3):	Angels Rising (NJ)		min		Black Scrim/All booms in O/W
+645		H/L @ 35% (I Tab)
+
+695		POSTSET w/ H/L @ 80% (B Tab)
+
+						TOTAL TIME:	 w/o changes
+
+900		LIBRARY CUE BLOCK
