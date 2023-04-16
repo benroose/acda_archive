@@ -1,0 +1,71 @@
+MThd | Format=1 | # of Tracks=1 | Division=192
+
+Track #0 ******************************************
+    Time       Event
+   1: 1:  0 |Sysex	 | len=11    | 
+	    0xF0 0x41 0x10 0x42 0x12 0x40 0x00 0x7F 0x00 0x41 0xF7
+	    |Controller  | chan= 1   | contr=BankSw H | value=	0
+	    |Specific	 | len=20    |
+	    0x4A 0x41 0x5A 0x32 0x01 0x00 0x00 0x00 0x00 0x00 0x00 <JAZ2.......>
+	    0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00	   <.........>
+	    |Track Name  | len=4     |
+	    0x44 0x61 0x74 0x61 				   <Data>
+   4: 1:164 |Program	 | chan= 1   | pgm #=  2
+   5: 1: 63 |Program	 | chan= 1   | pgm #=  3
+      4:132 |Program	 | chan= 1   | pgm #=  6
+   6: 3:144 |Program	 | chan= 1   | pgm #= 11
+   7: 4: 67 |Program	 | chan= 1   | pgm #= 13
+  11: 3:183 |Controller  | chan= 1   | contr=SndCtl 8 | value=	1
+  12: 3: 99 |Controller  | chan= 1   | contr=SndCtl 8 | value=	2
+  13: 4: 71 |Controller  | chan= 1   | contr=SndCtl 8 | value=	5
+  14: 4: 71 |Controller  | chan= 1   | contr=SndCtl 8 | value= 10
+  18: 1: 18 |Controller  | chan= 1   | contr=SndCtl 8 | value= 14
+  22: 3: 62 |On Note	 | chan= 1   | pitch=C 3	 | vol=64
+	 95 |(Off) Note  | chan= 1   | pitch=c 3
+  23: 1:177 |On Note	 | chan= 1   | pitch=C#3	 | vol=64
+      2: 15 |(Off) Note  | chan= 1   | pitch=c#3
+      4: 81 |On Note	 | chan= 1   | pitch=D 3	 | vol=64
+	128 |(Off) Note  | chan= 1   | pitch=d 3
+  24: 2:135 |On Note	 | chan= 1   | pitch=D#3	 | vol=64
+	181 |(Off) Note  | chan= 1   | pitch=d#3
+      4:174 |On Note	 | chan= 1   | pitch=E 3	 | vol=64
+  25: 1: 12 |(Off) Note  | chan= 1   | pitch=e 3
+      3:  9 |On Note	 | chan= 1   | pitch=F 3	 | vol=64
+	 39 |(Off) Note  | chan= 1   | pitch=f 3
+  26: 1:  3 |On Note	 | chan= 1   | pitch=F#3	 | vol=64
+	 49 |(Off) Note  | chan= 1   | pitch=f#3
+      3: 16 |On Note	 | chan= 1   | pitch=G 3	 | vol=64
+	 46 |(Off) Note  | chan= 1   | pitch=g 3
+  27: 1: 11 |On Note	 | chan= 1   | pitch=G#3	 | vol=64
+	 56 |(Off) Note  | chan= 1   | pitch=g#3
+      3: 21 |On Note	 | chan= 1   | pitch=A 3	 | vol=64
+	 51 |(Off) Note  | chan= 1   | pitch=a 3
+  28: 1: 33 |On Note	 | chan= 1   | pitch=A#3	 | vol=64
+	 63 |(Off) Note  | chan= 1   | pitch=a#3
+      3: 11 |On Note	 | chan= 1   | pitch=B 3	 | vol=64
+	 57 |(Off) Note  | chan= 1   | pitch=b 3
+      4:170 |On Note	 | chan= 1   | pitch=C 4	 | vol=64
+  29: 1: 24 |(Off) Note  | chan= 1   | pitch=c 4
+      2:139 |On Note	 | chan= 1   | pitch=C#4	 | vol=64
+	170 |(Off) Note  | chan= 1   | pitch=c#4
+      4:104 |On Note	 | chan= 1   | pitch=D 4	 | vol=64
+	135 |(Off) Note  | chan= 1   | pitch=d 4
+  30: 2: 70 |On Note	 | chan= 1   | pitch=D#4	 | vol=64
+	101 |(Off) Note  | chan= 1   | pitch=d#4
+      4: 25 |On Note	 | chan= 1   | pitch=E 4	 | vol=64
+	 70 |(Off) Note  | chan= 1   | pitch=e 4
+  31: 2: 20 |On Note	 | chan= 1   | pitch=F 4	 | vol=64
+	 36 |(Off) Note  | chan= 1   | pitch=f 4
+      3:178 |On Note	 | chan= 1   | pitch=F#4	 | vol=64
+      4: 31 |(Off) Note  | chan= 1   | pitch=f#4
+  32: 1:162 |On Note	 | chan= 1   | pitch=G 4	 | vol=64
+      2:  0 |(Off) Note  | chan= 1   | pitch=g 4
+      3:113 |On Note	 | chan= 1   | pitch=G#4	 | vol=64
+	158 |(Off) Note  | chan= 1   | pitch=g#4
+  33: 1: 93 |On Note	 | chan= 1   | pitch=A 4	 | vol=64
+	168 |(Off) Note  | chan= 1   | pitch=a 4
+      3: 79 |On Note	 | chan= 1   | pitch=A#4	 | vol=64
+  34: 1:101 |(Off) Note  | chan= 1   | pitch=a#4
+      3: 24 |On Note	 | chan= 1   | pitch=B 4	 | vol=64
+  35: 1:153 |(Off) Note  | chan= 1   | pitch=b 4
+	    |End of track| 

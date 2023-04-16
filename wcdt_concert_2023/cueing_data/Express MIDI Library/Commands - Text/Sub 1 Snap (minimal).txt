@@ -1,0 +1,7 @@
+MThd | Format=1 | # of Tracks=1 | Division=192
+
+Track #0 ******************************************
+    Time       Event
+   1: 1:  0 |On Note	 | chan= 1   | pitch=C 3	 | vol=64
+	    |(Off) Note  | chan= 1   | pitch=c 3
+	    |End of track| 

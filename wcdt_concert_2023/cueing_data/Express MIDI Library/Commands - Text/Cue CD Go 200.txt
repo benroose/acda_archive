@@ -1,0 +1,8 @@
+MThd | Format=0 | # of Tracks=1 | Division=192
+
+Track #0 ******************************************
+    Time       Event
+   1: 1:  0 |Controller  | chan= 1   | contr=SndCtl 9 | value=	72
+	    |On Note	 | chan= 1   | pitch=b 6	 | vol=64
+      2:  0 |Off Note	 | chan= 1   | pitch=b 6	 | vol=0
+	    |End of track| 
