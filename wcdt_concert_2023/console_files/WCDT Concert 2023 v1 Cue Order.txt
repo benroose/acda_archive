@@ -21,7 +21,7 @@ LX Cue	Uni	No	Dance Piece			Run Time		Stage Changes
 500	WSUF	4(1):	Logged In and Buffering (CC)	min		Black Scrim/All booms in O/W
 545		H/L @ 35% (I Tab)
 
-550	GUEST	5(2): 	Film (C?)			min		Black Scrim/All booms in L201
+550	GUEST	5(2): 	The Wanderer (film)		min		Black Scrim/All booms in L201
 595		H/L @ 35% (B Tab)
 
 600	WSUF	6(3):	Angels Rising (NJ)		min		Black Scrim/All booms in O/W
@@ -29,6 +29,6 @@ LX Cue	Uni	No	Dance Piece			Run Time		Stage Changes
 
 695		POSTSET w/ H/L @ 80% (B Tab)
 
-						TOTAL TIME:	 w/o changes
+TOTAL TIME:	 w/o changes
 
 900		LIBRARY CUE BLOCK
